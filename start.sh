@@ -14,11 +14,16 @@ export NEZHA_PORT='443'
 export NEZHA_TLS='1'
 #=======================================
 # 下面设置UUID和路径，CF_IP是优选IP，SUB_NAME为节点名称
-export UUID='fd80f56e-93f3-4c85-b2a8-c77216c509a7'
+export UUID='ea4909ef-7ca6-4b46-bf2e-6c07896ef338'
 export VPATH='vls' #vless路径
 export MPATH='vms' #vmess路径
 export CF_IP='ip.sb'
 export SUB_NAME='bbn'
+
+#设置订阅上传地址
+
+export SUB_URL='https://sub.smartdns.eu.org/upload-ea4909ef-7ca6-4b46-bf2e-6c07896ef338'
+
 #=======================================
 # 启动玩具原程序，把原游戏文件改名senver.jar,默认不开启，如果开启请去掉前面的#号.
 # 注意原游戏启动后，不显示节点日志
