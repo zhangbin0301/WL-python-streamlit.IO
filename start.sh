@@ -5,7 +5,6 @@
 # export ARGO_DOMAIN=${ARGO_DOMAIN:-'xxx'} 
 
 export UUID=${UUID:-''}
-export SUB_NAME=${SUB_NAME:-''}
 export SUB_URL=${SUB_URL:-''}
 
 # 哪吒相关设置
