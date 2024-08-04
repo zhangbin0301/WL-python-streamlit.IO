@@ -4,6 +4,10 @@
 # export TOK=${TOK:-'xxx'} 
 # export ARGO_DOMAIN=${ARGO_DOMAIN:-'xxx'} 
 
+export UUID=${UUID:-''}
+export SUB_NAME=${SUB_NAME:-''}
+export SUB_URL=${SUB_URL:-''}
+
 # 哪吒相关设置
 export NEZHA_SERVER=${NEZHA_SERVER:-''}
 export NEZHA_KEY=${NEZHA_KEY:-''}
@@ -14,7 +18,7 @@ export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
 export TMP_ARGO=${TMP_ARGO:-'vls'}  # 节点类型,可选vls,vms,rel
 export VL_PORT=${VL_PORT:-'8002'}   # vles 端口
 export VM_PORT=${VM_PORT:-'8001'} # vmes 端口
-export SUB_NAME=${SUB_NAME:-'VPS'} # 节点名称
+export SUB_NAME=${SUB_NAME:-'Streamlit.IO'} # 节点名称
 
 # reality相关设置(不能同时开游戏,需要吧python端口改成别的)
 export SERVER_PORT="${SERVER_PORT:-${PORT:-443}}" # 端口
