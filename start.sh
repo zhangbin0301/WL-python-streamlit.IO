@@ -7,6 +7,10 @@
 export UUID=${UUID:-''}
 export SUB_URL=${SUB_URL:-''}
 
+# 自定义哪吒探针下载，也可默认0.18.2之前旧版本
+export NEZ_AMD_URL=${NEZ_AMD_URL:-'https://raw.githubusercontent.com/kahunama/myfile/main/nezha/nezha-agent'}
+export NEZ_ARM_URL=${NEZ_ARM_URL:-'https://raw.githubusercontent.com/kahunama/myfile/main/nezha/nezha-agent(arm)'}
+
 # 哪吒相关设置
 export NEZHA_SERVER=${NEZHA_SERVER:-''}
 export NEZHA_KEY=${NEZHA_KEY:-''}
